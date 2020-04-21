@@ -22,7 +22,7 @@ li {
   list-style: none;
 }
 body {
-  font-family: "Roboto-Regular";
+  font-family: "Roboto-Regular" sans-serif;
   font-size: 15px;
   line-height: 24px;
   color: $text;
@@ -75,6 +75,8 @@ body {
 .breadcrumb {
   &__inner {
     padding: 45px 0 40px;
+    overflow: hidden;
+    width: 1200px;
   }
   &__list {
     li {
@@ -113,4 +115,11 @@ body {
     color: $green;
     font-size: 14px;
   }
+}
+.green__btn {
+  color: #fff;
+  background-color: $green;
+  border: none;
+  padding: 15px 36px;
+  cursor: pointer;
 }
